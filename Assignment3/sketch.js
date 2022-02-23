@@ -5,17 +5,17 @@
  */
 console.log("\nPart - A : Problem");
 
-var printName_old = (name) => {
+var printName = (name) => {
 
     return "Hi " + name;
 }
-console.log(printName_old("Lavanya"));  
+console.log(printName("Lavanya"));  
 
 console.log("\nPart A : Solution");
 
-var printName_new = name => "Hi " + name;
+var printNameNew = name => "Hi " + name;
 
-console.log(printName_new("Lavanya"));
+console.log(printNameNew("Lavanya"));
 
 
 
@@ -26,19 +26,19 @@ console.log(printName_new("Lavanya"));
  */
 console.log("\nPart - B : Problem");
 
-var printBill_old = (name, bill) => {
+var printBill = (name, bill) => {
 
     return "Hi " + name + ", please pay: " + bill;
 }
-console.log(printBill_old("Lakshmi",500));
+console.log(printBill("Lakshmi",500));
 
 console.log("\nPart B : Solution");
 
-var printBill_new = (name, bill) => {
+var printBillNew = (name, bill) => {
 
     return `Hi ${name}, please pay: ${bill}`;
 }
-console.log(printBill_new("Lakshmi",500)); 
+console.log(printBillNew("Lakshmi",500)); 
 
 /*
  *
@@ -61,13 +61,13 @@ console.log(age);
 
 console.log("\nPart C : Solution");
 
-const person_new = {
+const personNew = {
 
     pName: "Noam Chomsky",
     pAge: 92
 };
 
-const {pName, pAge} = person_new;
+const {pName, pAge} = personNew;
 console.log(pName);
 console.log(pAge);
 
